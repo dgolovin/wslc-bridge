@@ -1,0 +1,22 @@
+/dist/
+/build/
+/.cursor/
+*.exe
+
+# OS noise
+.DS_Store
+
+# go build/test artifacts
+*.test
+*.out
+coverage.*
+*.tmp
+
+# editors/IDE
+.idea/
+.vscode/
+
+# local env/secrets
+.env
+.env.*
+!.env.example
